@@ -1,19 +1,8 @@
 import siteConfig from "../../../site.config";
-import Navigation from "@/components/ui/Navigation";
-import CookieConsent from "@/components/ui/CookieConsent";
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Services from "@/components/sections/Services";
-import Gallery from "@/components/sections/Gallery";
-import Testimonials from "@/components/sections/Testimonials";
-import FaqSection from "@/components/sections/FaqSection";
-import Contact from "@/components/sections/Contact";
-import Footer from "@/components/sections/Footer";
+import HomeContent from "@/components/HomeContent";
 
 export default function HomePage() {
-  const s = siteConfig.sections;
-
-  // JSON-LD structured data
+  // JSON-LD structured data (server-rendered)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": siteConfig.schemaOrg.type,
@@ -44,18 +33,7 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Navigation />
-      <main>
-        {s.hero.enabled && <Hero />}
-        {s.about.enabled && <About />}
-        {s.services.enabled && <Services />}
-        {s.gallery.enabled && <Gallery />}
-        {s.testimonials.enabled && <Testimonials />}
-        {s.faq.enabled && <FaqSection />}
-        {s.contact.enabled && <Contact />}
-      </main>
-      <Footer />
-      <CookieConsent />
+      <HomeContent />
     </>
   );
 }

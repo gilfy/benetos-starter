@@ -2,9 +2,10 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 export default function Hero() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("hero");
 
   return (

@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import { Instagram, Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
-import siteConfig from "../../../site.config";
+import { useSiteConfig, useDemoBasePath } from "@/lib/config-context";
 
 const socialIcons: Record<string, typeof Instagram> = {
   instagram: Instagram,
@@ -13,6 +13,8 @@ const socialIcons: Record<string, typeof Instagram> = {
 };
 
 export default function Footer() {
+  const siteConfig = useSiteConfig();
+  const basePath = useDemoBasePath();
   const t = useTranslations("footer");
   const locale = useLocale();
   const year = new Date().getFullYear();
@@ -20,6 +22,8 @@ export default function Footer() {
   const socialLinks = Object.entries(siteConfig.social).filter(
     ([, url]) => !!url
   );
+
+  const legalBase = basePath ? `${basePath}/${locale}` : `/${locale}`;
 
   return (
     <footer className="border-t border-border bg-background py-12 md:py-16">
@@ -60,7 +64,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href={`/${locale}/impressum`}
+                  href={`${legalBase}/impressum`}
                   className="text-sm text-text-secondary transition-colors hover:text-primary"
                 >
                   {t("impressum")}
@@ -68,7 +72,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href={`/${locale}/datenschutz`}
+                  href={`${legalBase}/datenschutz`}
                   className="text-sm text-text-secondary transition-colors hover:text-primary"
                 >
                   {t("datenschutz")}

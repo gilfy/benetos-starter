@@ -4,9 +4,10 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 export default function Gallery() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("gallery");
   const { images, columns } = siteConfig.sections.gallery;
 

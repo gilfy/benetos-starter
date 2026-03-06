@@ -6,9 +6,10 @@ import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { contactSchema, type ContactFormData } from "@/lib/schemas/contact";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 export default function Contact() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("contact");
   const [formData, setFormData] = useState<ContactFormData>({
     name: "",

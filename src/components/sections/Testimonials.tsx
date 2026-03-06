@@ -4,9 +4,10 @@ import { useTranslations } from "next-intl";
 import { Star } from "lucide-react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 export default function Testimonials() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("testimonials");
   const items = t.raw("items") as Array<{
     name: string;

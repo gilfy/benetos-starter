@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Master craftsmen since 1985",
+    "title": "Meister Holz",
+    "subtitle": "Carpentry and custom furniture in Munich. Bespoke furniture, renovations, and woodwork with passion and precision.",
+    "cta": "Our Services",
+    "ctaSecondary": "Request a Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Craftsmanship with heart for three generations",
+    "imageAlt": "The Meister Holz workshop",
+    "heading": "Tradition meets modern craftsmanship",
+    "text1": "Since 1985, Meister Holz has stood for the highest quality in carpentry. What began as a small workshop under grandfather Heinrich has become a modern master workshop led by Stefan Zimmermann.",
+    "text2": "We combine traditional craft techniques with cutting-edge CNC technology. Every piece is carefully planned and crafted — from the first design to final installation. Wood is our material, perfection is our standard.",
+    "stat1": {
+      "value": "40+",
+      "label": "Years of Experience"
+    },
+    "stat2": {
+      "value": "2,500+",
+      "label": "Projects Completed"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Master Quality"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "From custom kitchens to complete renovations — we are your partner",
+    "items": [
+      {
+        "icon": "Hammer",
+        "title": "Custom Furniture",
+        "description": "Individual furniture to your specifications — cabinets, shelves, tables and more from fine woods.",
+        "features": [
+          "Built-in Wardrobes",
+          "Solid Wood Tables",
+          "Bookshelves",
+          "Sideboards"
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Renovation",
+        "description": "Complete interior builds, attic conversions, and modernization of older buildings.",
+        "features": [
+          "Attic Conversion",
+          "Floor Installation",
+          "Wall Cladding",
+          "Drywall"
+        ]
+      },
+      {
+        "icon": "TreePine",
+        "title": "Kitchen & Bath",
+        "description": "Custom kitchens and bathroom furniture — designed, built, and installed by one team.",
+        "features": [
+          "Fitted Kitchens",
+          "Vanity Units",
+          "Countertops",
+          "Bathroom Shelving"
+        ]
+      },
+      {
+        "icon": "Wrench",
+        "title": "Repair & Emergency",
+        "description": "Quick help with damage to doors, windows, furniture, and wood structures.",
+        "features": [
+          "Door Repair",
+          "Window Replacement",
+          "Furniture Restoration",
+          "24/7 Emergency"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Portfolio",
+    "subtitle": "Selected projects from our workshop",
+    "imageAlt": "Meister Holz project"
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What our clients say about working with us",
+    "items": [
+      {
+        "name": "The Huber Family",
+        "role": "Kitchen Project 2023",
+        "text": "Our new fitted kitchen is a dream. Mr. Zimmermann perfectly realized our vision. The quality of work is outstanding — every detail is just right.",
+        "rating": 5
+      },
+      {
+        "name": "Dr. Martin Keller",
+        "role": "Dental Practice Fitout",
+        "text": "Meister Holz fitted out our entire dental practice. On time, clean, and to the highest quality. The collaboration was professional from start to finish.",
+        "rating": 5
+      },
+      {
+        "name": "Sandra Meier",
+        "role": "Attic Conversion",
+        "text": "The attic conversion completely transformed our home. The team was reliable, tidy, and creatively expanded our ideas. Absolutely recommended!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most important questions about our services",
+    "items": [
+      {
+        "question": "How does the inquiry process work?",
+        "answer": "Contact us by phone or form. We'll arrange a free on-site consultation, take measurements, and prepare a no-obligation quote. Once commissioned, we begin planning and production."
+      },
+      {
+        "question": "What types of wood do you use?",
+        "answer": "We work with a variety of woods: oak, beech, walnut, cherry, maple, and many more. We're happy to advise you on the optimal wood choice for your project."
+      },
+      {
+        "question": "How long does a project take?",
+        "answer": "Duration depends on scope. A built-in cabinet takes 2-3 weeks, a complete kitchen 4-6 weeks. Larger renovation projects are planned individually with you."
+      },
+      {
+        "question": "Do you offer emergency service?",
+        "answer": "Yes, we offer 24/7 emergency service for urgent repairs to doors, windows, and wood structures. Just call us — we'll be there quickly."
+      },
+      {
+        "question": "Do you work outside Munich?",
+        "answer": "Yes, we serve the greater Munich area and also take on projects across Upper Bavaria. For larger commissions, we travel further."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your project",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Opening Hours",
+    "days": {
+      "mo-fr": "Monday – Friday",
+      "sa": "Saturday"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Subject",
+      "subjectPlaceholder": "Furniture, renovation, repair, ...",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project...",
+      "submit": "Send Inquiry",
+      "sending": "Sending...",
+      "error": "There was an error. Please try again later."
+    },
+    "successTitle": "Inquiry Sent!",
+    "successMessage": "Thank you for your inquiry. We'll get back to you within 24 hours."
+  },
+  "footer": {
+    "description": "Carpentry and custom furniture in Munich since 1985. Craftsmanship with heart and precision.",
+    "links": "Navigation",
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "gallery": "Portfolio",
+      "contact": "Contact"
+    },
+    "legal": "Legal",
+    "impressum": "Imprint",
+    "datenschutz": "Privacy Policy",
+    "rights": "All rights reserved.",
+    "madeBy": "Made by"
+  },
+  "cookie": {
+    "message": "We use cookies to provide you with the best possible experience on our website.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "infoTitle": "Information according to § 5 TMG",
+    "representedBy": "Represented by",
+    "contactTitle": "Contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "registerTitle": "Commercial Register",
+    "registerCourt": "Register Court",
+    "registerNumber": "Register Number",
+    "taxTitle": "Tax Information",
+    "taxId": "Tax ID",
+    "vatId": "VAT ID",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "The contents of our pages were created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content.",
+    "copyrightTitle": "Copyright",
+    "copyrightText": "The content and works created by the site operators on these pages are subject to German copyright law."
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "responsibleTitle": "Responsible Party",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "generalTitle": "General Information",
+    "generalText": "The protection of your personal data is of particular concern to us. We process your data exclusively on the basis of legal provisions (GDPR).",
+    "hostingTitle": "Hosting",
+    "hostingText": "Our website is hosted by Vercel Inc. When you visit, log data is automatically collected and deleted after 30 days.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Our website uses technically necessary cookies required for the operation of the site.",
+    "contactFormTitle": "Contact Form",
+    "contactFormText": "Your details from the contact form are stored for processing your inquiry. Processing is done through Web3Forms.",
+    "rightsTitle": "Your Rights",
+    "rightsText": "You have the rights to information, correction, deletion, restriction, data portability, and objection.",
+    "changesTitle": "Changes",
+    "changesText": "We reserve the right to adapt this privacy policy to ensure it always complies with current legal requirements."
+  }
+}

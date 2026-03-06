@@ -6,20 +6,37 @@ import {
   UtensilsCrossed,
   CakeSlice,
   Wine,
+  Dumbbell,
+  Heart,
+  Users,
+  Flame,
+  Hammer,
+  Home,
+  Wrench,
+  TreePine,
   type LucideIcon,
 } from "lucide-react";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 const iconMap: Record<string, LucideIcon> = {
   Coffee,
   UtensilsCrossed,
   CakeSlice,
   Wine,
+  Dumbbell,
+  Heart,
+  Users,
+  Flame,
+  Hammer,
+  Home,
+  Wrench,
+  TreePine,
 };
 
 export default function Services() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("services");
   const items = t.raw("items") as Array<{
     icon: string;

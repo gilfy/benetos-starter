@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "about": "About",
+    "courses": "Classes",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Your fitness studio in Hamburg",
+    "title": "FitZone Studio",
+    "subtitle": "Yoga, HIIT, personal training and group classes — find your strength in our modern studio in the Schanzenviertel.",
+    "cta": "Our Classes",
+    "ctaSecondary": "Book a Trial"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "More than a gym — a community",
+    "imageAlt": "Inside FitZone Studio",
+    "heading": "Your path to more strength and balance",
+    "text1": "Since 2018, FitZone Studio has been the go-to place for holistic fitness in Hamburg. Founded by Lisa Bergmann, certified yoga teacher and personal trainer with over 15 years of experience.",
+    "text2": "Our approach combines functional training with mindfulness. Small groups, personal attention, and a strong community spirit make the difference. You never train alone here.",
+    "stat1": {
+      "value": "800+",
+      "label": "Active Members"
+    },
+    "stat2": {
+      "value": "40+",
+      "label": "Classes per Week"
+    },
+    "stat3": {
+      "value": "6",
+      "label": "Trainers"
+    }
+  },
+  "services": {
+    "title": "Our Classes",
+    "subtitle": "From dynamic HIIT to relaxing yoga — the right fit for every level",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Yoga & Pilates",
+        "description": "Find your inner balance with Vinyasa, Hatha, and Power Yoga in a calm atmosphere.",
+        "features": [
+          "Vinyasa Flow",
+          "Hatha Yoga",
+          "Pilates Mat",
+          "Yin Yoga"
+        ]
+      },
+      {
+        "icon": "Flame",
+        "title": "HIIT & Cardio",
+        "description": "High-intensity interval training for maximum fat burn and endurance.",
+        "features": [
+          "HIIT Circuit",
+          "Tabata",
+          "Cardio Kick",
+          "Functional Burn"
+        ]
+      },
+      {
+        "icon": "Dumbbell",
+        "title": "Personal Training",
+        "description": "Individual 1:1 training with certified coaches for your personal goals.",
+        "features": [
+          "Initial Consultation",
+          "Tailored Plan",
+          "Nutrition Advice",
+          "Progress Tracking"
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "Group Classes",
+        "description": "Motivating group workouts in small classes for maximum personal attention.",
+        "features": [
+          "BodyPump",
+          "Spinning",
+          "Boxing Fitness",
+          "Stretch & Relax"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A look inside our studio and community",
+    "imageAlt": "FitZone Studio"
+  },
+  "testimonials": {
+    "title": "What Our Members Say",
+    "subtitle": "Experiences from our FitZone community",
+    "items": [
+      {
+        "name": "Julia Schneider",
+        "role": "Member since 2020",
+        "text": "The yoga classes at FitZone have changed my life. The atmosphere is so welcoming and the trainers are incredibly attentive. Finally a studio that feels like home.",
+        "rating": 5
+      },
+      {
+        "name": "Markus Brandt",
+        "role": "HIIT Enthusiast",
+        "text": "After 6 months of HIIT at FitZone, I lost 15 kg and feel fitter than ever. The small group sizes make the difference — you truly feel seen.",
+        "rating": 5
+      },
+      {
+        "name": "Elif Yilmaz",
+        "role": "Personal Training Client",
+        "text": "The personal training is worth every penny. My coach created a plan that fits perfectly into my daily routine. The results speak for themselves!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about FitZone",
+    "items": [
+      {
+        "question": "Do I need prior experience for the classes?",
+        "answer": "No! All our classes are suitable for beginners to advanced. Our trainers always offer variations so everyone can train at their level."
+      },
+      {
+        "question": "Is there a trial class?",
+        "answer": "Yes, we offer a free trial in every class. Simply book through the contact form or by phone."
+      },
+      {
+        "question": "What membership options are available?",
+        "answer": "We offer flexible monthly, quarterly, and annual memberships. All memberships include access to all group classes. Personal training can be booked separately."
+      },
+      {
+        "question": "What should I bring to training?",
+        "answer": "Comfortable sportswear, a towel, and a water bottle. Yoga mats, weights, and all other equipment are provided free of charge."
+      },
+      {
+        "question": "Are there showers and changing rooms?",
+        "answer": "Yes, we have spacious changing rooms with showers, lockers, and hair dryers. Towels can be rented for a small fee."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Start now — we look forward to hearing from you!",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Opening Hours",
+    "days": {
+      "mo-fr": "Monday – Friday",
+      "sa": "Saturday",
+      "so": "Sunday"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Subject",
+      "subjectPlaceholder": "Trial class, membership, ...",
+      "message": "Message",
+      "messagePlaceholder": "Your message to us...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "error": "There was an error. Please try again later."
+    },
+    "successTitle": "Message Sent!",
+    "successMessage": "Thanks for your message! We'll get back to you as soon as possible."
+  },
+  "footer": {
+    "description": "Yoga, HIIT, personal training and group classes in Hamburg since 2018.",
+    "links": "Navigation",
+    "nav": {
+      "about": "About",
+      "courses": "Classes",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "legal": "Legal",
+    "impressum": "Imprint",
+    "datenschutz": "Privacy Policy",
+    "rights": "All rights reserved.",
+    "madeBy": "Made by"
+  },
+  "cookie": {
+    "message": "We use cookies to provide you with the best possible experience on our website.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "infoTitle": "Information according to § 5 TMG",
+    "representedBy": "Represented by",
+    "contactTitle": "Contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "registerTitle": "Commercial Register",
+    "registerCourt": "Register Court",
+    "registerNumber": "Register Number",
+    "taxTitle": "Tax Information",
+    "taxId": "Tax ID",
+    "vatId": "VAT ID",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "The contents of our pages were created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content.",
+    "copyrightTitle": "Copyright",
+    "copyrightText": "The content and works created by the site operators on these pages are subject to German copyright law."
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "responsibleTitle": "Responsible Party",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "generalTitle": "General Information",
+    "generalText": "The protection of your personal data is of particular concern to us. We process your data exclusively on the basis of legal provisions (GDPR).",
+    "hostingTitle": "Hosting",
+    "hostingText": "Our website is hosted by Vercel Inc. When you visit, log data is automatically collected and deleted after 30 days.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Our website uses technically necessary cookies required for the operation of the site.",
+    "contactFormTitle": "Contact Form",
+    "contactFormText": "Your details from the contact form are stored for processing your inquiry. Processing is done through Web3Forms.",
+    "rightsTitle": "Your Rights",
+    "rightsText": "You have the rights to information, correction, deletion, restriction, data portability, and objection.",
+    "changesTitle": "Changes",
+    "changesText": "We reserve the right to adapt this privacy policy to ensure it always complies with current legal requirements."
+  }
+}

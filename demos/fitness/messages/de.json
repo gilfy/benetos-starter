@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "courses": "Kurse",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Dein Fitnessstudio in Hamburg",
+    "title": "FitZone Studio",
+    "subtitle": "Yoga, HIIT, Personal Training und Gruppenkurse — finde deine Stärke in unserem modernen Studio im Schanzenviertel.",
+    "cta": "Unsere Kurse",
+    "ctaSecondary": "Probetraining buchen"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Mehr als ein Fitnessstudio — eine Community",
+    "imageAlt": "Das FitZone Studio von innen",
+    "heading": "Dein Weg zu mehr Stärke und Balance",
+    "text1": "Seit 2018 ist das FitZone Studio die erste Adresse für ganzheitliches Training in Hamburg. Gegründet von Lisa Bergmann, zertifizierte Yoga-Lehrerin und Personal Trainerin mit über 15 Jahren Erfahrung.",
+    "text2": "Unser Ansatz verbindet funktionales Training mit Achtsamkeit. Kleine Gruppen, persönliche Betreuung und ein starker Community-Gedanke machen den Unterschied. Bei uns trainierst du nicht allein.",
+    "stat1": {
+      "value": "800+",
+      "label": "Aktive Mitglieder"
+    },
+    "stat2": {
+      "value": "40+",
+      "label": "Kurse pro Woche"
+    },
+    "stat3": {
+      "value": "6",
+      "label": "Trainer:innen"
+    }
+  },
+  "services": {
+    "title": "Unsere Kurse",
+    "subtitle": "Von dynamischem HIIT bis zu entspannendem Yoga — für jedes Level das richtige Angebot",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Yoga & Pilates",
+        "description": "Finde deine innere Balance mit Vinyasa, Hatha und Power Yoga in ruhiger Atmosphäre.",
+        "features": [
+          "Vinyasa Flow",
+          "Hatha Yoga",
+          "Pilates Mat",
+          "Yin Yoga"
+        ]
+      },
+      {
+        "icon": "Flame",
+        "title": "HIIT & Cardio",
+        "description": "Hochintensives Intervalltraining für maximale Fettverbrennung und Ausdauer.",
+        "features": [
+          "HIIT Circuit",
+          "Tabata",
+          "Cardio Kick",
+          "Functional Burn"
+        ]
+      },
+      {
+        "icon": "Dumbbell",
+        "title": "Personal Training",
+        "description": "Individuelles 1:1 Training mit zertifizierten Coaches für deine persönlichen Ziele.",
+        "features": [
+          "Erstberatung & Analyse",
+          "Maßgeschneiderter Plan",
+          "Ernährungsberatung",
+          "Fortschrittstracking"
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "Gruppenkurse",
+        "description": "Motivierende Gruppenworkouts in kleinen Klassen für maximale Betreuung.",
+        "features": [
+          "BodyPump",
+          "Spinning",
+          "Boxing Fitness",
+          "Stretch & Relax"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Einblicke in unser Studio und unsere Community",
+    "imageAlt": "FitZone Studio"
+  },
+  "testimonials": {
+    "title": "Das sagen unsere Mitglieder",
+    "subtitle": "Erfahrungen aus unserer FitZone Community",
+    "items": [
+      {
+        "name": "Julia Schneider",
+        "role": "Mitglied seit 2020",
+        "text": "Die Yoga-Kurse bei FitZone haben mein Leben verändert. Die Atmosphäre ist so einladend und die Trainer sind unglaublich aufmerksam. Endlich ein Studio, das sich wie zu Hause anfühlt.",
+        "rating": 5
+      },
+      {
+        "name": "Markus Brandt",
+        "role": "HIIT-Enthusiast",
+        "text": "Nach 6 Monaten HIIT bei FitZone habe ich 15 kg abgenommen und fühle mich so fit wie nie. Die kleinen Gruppengrößen machen den Unterschied — man wird wirklich gesehen.",
+        "rating": 5
+      },
+      {
+        "name": "Elif Yilmaz",
+        "role": "Personal Training Kundin",
+        "text": "Das Personal Training ist jeden Cent wert. Mein Coach hat einen Plan erstellt, der perfekt zu meinem Alltag passt. Die Ergebnisse sprechen für sich!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was du über FitZone wissen musst",
+    "items": [
+      {
+        "question": "Brauche ich Vorerfahrung für die Kurse?",
+        "answer": "Nein! Alle unsere Kurse sind für Anfänger bis Fortgeschrittene geeignet. Unsere Trainer bieten immer Variationen an, sodass jeder auf seinem Level trainieren kann."
+      },
+      {
+        "question": "Gibt es ein Probetraining?",
+        "answer": "Ja, wir bieten eine kostenlose Probestunde in jedem Kurs an. Einfach über das Kontaktformular oder telefonisch einen Termin vereinbaren."
+      },
+      {
+        "question": "Welche Mitgliedschaften gibt es?",
+        "answer": "Wir bieten flexible Monats-, Quartals- und Jahresmitgliedschaften an. Alle Mitgliedschaften beinhalten Zugang zu allen Gruppenkursen. Personal Training kann separat gebucht werden."
+      },
+      {
+        "question": "Was muss ich zum Training mitbringen?",
+        "answer": "Bequeme Sportkleidung, ein Handtuch und eine Trinkflasche. Yoga-Matten, Gewichte und alle weiteren Geräte stellen wir kostenlos zur Verfügung."
+      },
+      {
+        "question": "Gibt es Duschen und Umkleiden?",
+        "answer": "Ja, wir haben großzügige Umkleiden mit Duschen, Schließfächern und Föhns. Handtücher können gegen eine kleine Gebühr geliehen werden."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Starte jetzt — wir freuen uns auf dich!",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "days": {
+      "mo-fr": "Montag – Freitag",
+      "sa": "Samstag",
+      "so": "Sonntag"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Dein Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "deine@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Probetraining, Mitgliedschaft, ...",
+      "message": "Nachricht",
+      "messagePlaceholder": "Deine Nachricht an uns...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "error": "Es gab einen Fehler. Bitte versuche es später erneut."
+    },
+    "successTitle": "Nachricht gesendet!",
+    "successMessage": "Danke für deine Nachricht! Wir melden uns schnellstmöglich bei dir."
+  },
+  "footer": {
+    "description": "Yoga, HIIT, Personal Training und Gruppenkurse in Hamburg seit 2018.",
+    "links": "Navigation",
+    "nav": {
+      "about": "Über uns",
+      "courses": "Kurse",
+      "gallery": "Galerie",
+      "contact": "Kontakt"
+    },
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Erstellt von"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um dir die bestmögliche Erfahrung auf unserer Website zu bieten.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "infoTitle": "Angaben gemäß § 5 TMG",
+    "representedBy": "Vertreten durch",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "registerTitle": "Handelsregister",
+    "registerCourt": "Registergericht",
+    "registerNumber": "Registernummer",
+    "taxTitle": "Steuernummern",
+    "taxId": "Steuernummer",
+    "vatId": "Umsatzsteuer-ID",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "responsibleTitle": "Verantwortlicher",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "generalTitle": "Allgemeine Hinweise",
+    "generalText": "Der Schutz deiner persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten deine Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO).",
+    "hostingTitle": "Hosting",
+    "hostingText": "Unsere Website wird bei Vercel Inc. gehostet. Beim Besuch werden automatisch Logdaten erfasst, die nach 30 Tagen gelöscht werden.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Unsere Website verwendet technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.",
+    "contactFormTitle": "Kontaktformular",
+    "contactFormText": "Deine Angaben aus dem Kontaktformular werden zwecks Bearbeitung der Anfrage bei uns gespeichert. Die Verarbeitung erfolgt über Web3Forms.",
+    "rightsTitle": "Deine Rechte",
+    "rightsText": "Dir stehen die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch zu.",
+    "changesTitle": "Änderungen",
+    "changesText": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht."
+  }
+}

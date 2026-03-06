@@ -1,52 +1,54 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
 import { SiteConfigProvider } from "@/lib/config-context";
 import type { ThemeColors } from "@/lib/site-config.types";
-import siteConfig from "../../../site.config";
-import "../globals.css";
+import { getDemo, DEMO_IDS } from "@/lib/demo-registry";
+import "../../../../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
+export async function generateStaticParams() {
+  return DEMO_IDS.flatMap((demoId) =>
+    ["de", "en"].map((locale) => ({ demoId, locale }))
+  );
+}
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ demoId: string; locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { demoId, locale } = await params;
+  const demo = await getDemo(demoId);
+  if (!demo) return {};
+
+  const { config } = demo;
   return {
     title: {
-      template: siteConfig.seo.titleTemplate,
-      default: siteConfig.brand.name,
+      template: config.seo.titleTemplate,
+      default: config.brand.name,
     },
-    description: siteConfig.seo.defaultDescription,
-    metadataBase: new URL(siteConfig.url),
+    description: config.seo.defaultDescription,
+    metadataBase: new URL("https://demo.benetos.dev"),
     openGraph: {
-      title: siteConfig.brand.name,
-      description: siteConfig.seo.defaultDescription,
-      url: siteConfig.url,
-      siteName: siteConfig.brand.name,
-      images: [{ url: siteConfig.seo.ogImage }],
+      title: config.brand.name,
+      description: config.seo.defaultDescription,
+      url: config.url,
+      siteName: config.brand.name,
+      images: [{ url: config.seo.ogImage }],
       locale: locale === "de" ? "de_DE" : "en_US",
       type: "website",
-    },
-    alternates: {
-      canonical: siteConfig.url,
-      languages: { de: "/de", en: "/en" },
     },
   };
 }
 
-function buildCssVars(
-  colors: ThemeColors
-): Record<string, string> {
+function buildCssVars(colors: ThemeColors): Record<string, string> {
   const vars: Record<string, string> = {};
   for (const [key, value] of Object.entries(colors)) {
     vars[`--${key}`] = value;
@@ -54,27 +56,29 @@ function buildCssVars(
   return vars;
 }
 
-export default async function LocaleLayout({
+export default async function DemoLocaleLayout({
   children,
   params,
 }: {
   children: ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{ demoId: string; locale: string }>;
 }) {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) notFound();
+  const { demoId, locale } = await params;
+  if (!["de", "en"].includes(locale)) notFound();
 
-  const messages = await getMessages();
-  const lightVars = buildCssVars(siteConfig.theme.light);
-  const darkVars = buildCssVars(siteConfig.theme.dark);
+  const demo = await getDemo(demoId);
+  if (!demo) notFound();
 
-  // Build inline style for theme injection
+  const { config, messages } = demo;
+  const localeMessages = locale === "de" ? messages.de : messages.en;
+  const lightVars = buildCssVars(config.theme.light);
+  const darkVars = buildCssVars(config.theme.dark);
   const themeStyle: Record<string, string> = { ...lightVars };
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        {siteConfig.theme.mode === "auto" && (
+        {config.theme.mode === "auto" && (
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -96,10 +100,13 @@ export default async function LocaleLayout({
       </head>
       <body
         className={`${geistSans.variable} font-sans antialiased bg-background text-text`}
-        style={siteConfig.theme.mode !== "auto" ? themeStyle : undefined}
+        style={config.theme.mode !== "auto" ? themeStyle : undefined}
       >
-        <NextIntlClientProvider messages={messages}>
-          <SiteConfigProvider config={siteConfig}>
+        <NextIntlClientProvider
+          locale={locale}
+          messages={localeMessages as Record<string, unknown> as never}
+        >
+          <SiteConfigProvider config={config} basePath={`/demo/${demoId}`}>
             {children}
           </SiteConfigProvider>
         </NextIntlClientProvider>

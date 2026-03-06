@@ -1,21 +1,6 @@
-// ─── Site Configuration ──────────────────────────────────────────────────────
-// Edit this file to customize everything about your website.
-// All user-visible text goes in messages/*.json — this file controls structure,
-// theme, features, and business data.
-// ─────────────────────────────────────────────────────────────────────────────
+import type { SiteConfig } from "../../src/lib/site-config.types";
 
-export type {
-  ThemeColors,
-  NavItem,
-  SectionConfig,
-  SiteConfig,
-} from "./src/lib/site-config.types";
-
-import type { SiteConfig } from "./src/lib/site-config.types";
-
-// ─── Demo: Café Milano ───────────────────────────────────────────────────────
-
-const siteConfig: SiteConfig = {
+const cafeConfig: SiteConfig = {
   brand: {
     name: "Café Milano",
     tagline: "Authentic Italian Coffee & Cuisine",
@@ -51,7 +36,7 @@ const siteConfig: SiteConfig = {
     },
   },
 
-  url: "https://demo.benetos.dev",
+  url: "https://demo.benetos.dev/demo/cafe",
   defaultLocale: "de",
 
   navigation: [
@@ -64,12 +49,12 @@ const siteConfig: SiteConfig = {
   sections: {
     hero: {
       enabled: true,
-      backgroundImage: "/images/hero.jpg",
+      backgroundImage: "/demos/cafe/hero.jpg",
       ctaHref: "#services",
     },
     about: {
       enabled: true,
-      image: "/images/about.jpg",
+      image: "/demos/cafe/about.jpg",
     },
     services: {
       enabled: true,
@@ -78,12 +63,12 @@ const siteConfig: SiteConfig = {
     gallery: {
       enabled: true,
       images: [
-        "/images/gallery/1.jpg",
-        "/images/gallery/2.jpg",
-        "/images/gallery/3.jpg",
-        "/images/gallery/4.jpg",
-        "/images/gallery/5.jpg",
-        "/images/gallery/6.jpg",
+        "/demos/cafe/gallery/1.jpg",
+        "/demos/cafe/gallery/2.jpg",
+        "/demos/cafe/gallery/3.jpg",
+        "/demos/cafe/gallery/4.jpg",
+        "/demos/cafe/gallery/5.jpg",
+        "/demos/cafe/gallery/6.jpg",
       ],
       columns: 3,
     },
@@ -145,8 +130,8 @@ const siteConfig: SiteConfig = {
   seo: {
     titleTemplate: "%s | Café Milano",
     defaultDescription:
-      "Café Milano — Authentischer italienischer Kaffee und Küche in Hannover. Besuchen Sie uns für erstklassigen Espresso, hausgemachte Pasta und köstliche Dolci.",
-    ogImage: "/images/og-image.png",
+      "Café Milano — Authentischer italienischer Kaffee und Küche in Hannover.",
+    ogImage: "/demos/cafe/og-image.png",
   },
 
   schemaOrg: {
@@ -157,4 +142,4 @@ const siteConfig: SiteConfig = {
   },
 };
 
-export default siteConfig;
+export default cafeConfig;

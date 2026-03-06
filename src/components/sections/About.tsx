@@ -4,9 +4,10 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
-import siteConfig from "../../../site.config";
+import { useSiteConfig } from "@/lib/config-context";
 
 export default function About() {
+  const siteConfig = useSiteConfig();
   const t = useTranslations("about");
 
   return (

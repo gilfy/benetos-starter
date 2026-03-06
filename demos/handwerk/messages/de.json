@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "gallery": "Referenzen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Meisterbetrieb seit 1985",
+    "title": "Meister Holz",
+    "subtitle": "Tischlerei und Möbelmanufaktur in München. Maßgefertigte Möbel, Renovierungen und Holzarbeiten mit Leidenschaft und Präzision.",
+    "cta": "Unsere Leistungen",
+    "ctaSecondary": "Angebot anfragen"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Handwerk mit Herz seit drei Generationen",
+    "imageAlt": "Die Werkstatt von Meister Holz",
+    "heading": "Tradition trifft moderne Handwerkskunst",
+    "text1": "Seit 1985 steht Meister Holz für höchste Qualität in der Tischlerei. Was als kleine Werkstatt von Großvater Heinrich begann, ist heute ein moderner Meisterbetrieb unter der Leitung von Stefan Zimmermann.",
+    "text2": "Wir verbinden traditionelle Handwerkstechniken mit modernster CNC-Technologie. Jedes Stück wird mit Sorgfalt geplant und gefertigt — vom ersten Entwurf bis zur finalen Montage. Holz ist unser Material, Perfektion unser Anspruch.",
+    "stat1": {
+      "value": "40+",
+      "label": "Jahre Erfahrung"
+    },
+    "stat2": {
+      "value": "2.500+",
+      "label": "Projekte"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Meisterqualität"
+    }
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Von der maßgefertigten Küche bis zur kompletten Renovierung — wir sind Ihr Partner",
+    "items": [
+      {
+        "icon": "Hammer",
+        "title": "Maßmöbel",
+        "description": "Individuelle Möbel nach Ihren Wünschen — Schränke, Regale, Tische und mehr aus edlen Hölzern.",
+        "features": [
+          "Einbauschränke",
+          "Massivholztische",
+          "Bücherregale",
+          "Sideboards"
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Renovierung",
+        "description": "Komplette Innenausbauten, Dachgeschoss-Ausbauten und Modernisierung von Altbauten.",
+        "features": [
+          "Dachausbau",
+          "Bodenverlegung",
+          "Wandverkleidung",
+          "Trockenbau"
+        ]
+      },
+      {
+        "icon": "TreePine",
+        "title": "Küche & Bad",
+        "description": "Maßgefertigte Küchen und Badmöbel — geplant, gefertigt und montiert aus einer Hand.",
+        "features": [
+          "Einbauküchen",
+          "Waschtische",
+          "Arbeitsplatten",
+          "Badregale"
+        ]
+      },
+      {
+        "icon": "Wrench",
+        "title": "Reparatur & Notdienst",
+        "description": "Schnelle Hilfe bei Schäden an Türen, Fenstern, Möbeln und Holzkonstruktionen.",
+        "features": [
+          "Türreparatur",
+          "Fensteraustausch",
+          "Möbelrestaurierung",
+          "Notdienst 24/7"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Referenzen",
+    "subtitle": "Ausgewählte Projekte aus unserer Werkstatt",
+    "imageAlt": "Meister Holz Projekt"
+  },
+  "testimonials": {
+    "title": "Kundenstimmen",
+    "subtitle": "Was unsere Kunden über die Zusammenarbeit sagen",
+    "items": [
+      {
+        "name": "Familie Huber",
+        "role": "Küchenprojekt 2023",
+        "text": "Unsere neue Einbauküche ist ein Traum. Herr Zimmermann hat unsere Vorstellungen perfekt umgesetzt. Die Qualität der Arbeit ist herausragend — jedes Detail stimmt.",
+        "rating": 5
+      },
+      {
+        "name": "Dr. Martin Keller",
+        "role": "Praxiseinrichtung",
+        "text": "Meister Holz hat unsere gesamte Zahnarztpraxis ausgebaut. Pünktlich, sauber und in höchster Qualität. Die Zusammenarbeit war von Anfang bis Ende professionell.",
+        "rating": 5
+      },
+      {
+        "name": "Sandra Meier",
+        "role": "Dachgeschoss-Ausbau",
+        "text": "Der Dachausbau hat unser Zuhause komplett verwandelt. Das Team war zuverlässig, ordentlich und hat unsere Ideen kreativ erweitert. Absolute Empfehlung!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Antworten auf die wichtigsten Fragen zu unseren Leistungen",
+    "items": [
+      {
+        "question": "Wie läuft eine Auftragsanfrage ab?",
+        "answer": "Kontaktieren Sie uns telefonisch oder per Formular. Wir vereinbaren einen kostenlosen Vor-Ort-Termin, nehmen Maß und erstellen ein unverbindliches Angebot. Nach Beauftragung beginnen wir mit der Planung und Fertigung."
+      },
+      {
+        "question": "Welche Hölzer verwenden Sie?",
+        "answer": "Wir arbeiten mit einer Vielzahl von Hölzern: Eiche, Buche, Nussbaum, Kirsche, Ahorn und viele mehr. Gerne beraten wir Sie zur optimalen Holzwahl für Ihr Projekt."
+      },
+      {
+        "question": "Wie lange dauert ein Projekt?",
+        "answer": "Die Dauer hängt vom Umfang ab. Ein Einbauschrank ist in 2-3 Wochen fertig, eine komplette Küche in 4-6 Wochen. Größere Renovierungsprojekte planen wir individuell mit Ihnen."
+      },
+      {
+        "question": "Bieten Sie einen Notdienst an?",
+        "answer": "Ja, wir bieten einen 24/7-Notdienst für dringende Reparaturen an Türen, Fenstern und Holzkonstruktionen. Rufen Sie uns einfach an — wir sind schnell vor Ort."
+      },
+      {
+        "question": "Arbeiten Sie auch außerhalb von München?",
+        "answer": "Ja, wir sind im gesamten Großraum München tätig und übernehmen auch Projekte in Oberbayern. Bei größeren Aufträgen kommen wir auch weiter."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns über Ihr Projekt sprechen",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "days": {
+      "mo-fr": "Montag – Freitag",
+      "sa": "Samstag"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Möbel, Renovierung, Reparatur, ...",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihr Projekt...",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "error": "Es gab einen Fehler. Bitte versuchen Sie es später erneut."
+    },
+    "successTitle": "Anfrage gesendet!",
+    "successMessage": "Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+  },
+  "footer": {
+    "description": "Tischlerei und Möbelmanufaktur in München seit 1985. Handwerk mit Herz und Präzision.",
+    "links": "Navigation",
+    "nav": {
+      "about": "Über uns",
+      "services": "Leistungen",
+      "gallery": "Referenzen",
+      "contact": "Kontakt"
+    },
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Erstellt von"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "infoTitle": "Angaben gemäß § 5 TMG",
+    "representedBy": "Vertreten durch",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "registerTitle": "Handelsregister",
+    "registerCourt": "Registergericht",
+    "registerNumber": "Registernummer",
+    "taxTitle": "Steuernummern",
+    "taxId": "Steuernummer",
+    "vatId": "Umsatzsteuer-ID",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "responsibleTitle": "Verantwortlicher",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "generalTitle": "Allgemeine Hinweise",
+    "generalText": "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO).",
+    "hostingTitle": "Hosting",
+    "hostingText": "Unsere Website wird bei Vercel Inc. gehostet. Beim Besuch werden automatisch Logdaten erfasst, die nach 30 Tagen gelöscht werden.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Unsere Website verwendet technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.",
+    "contactFormTitle": "Kontaktformular",
+    "contactFormText": "Ihre Angaben aus dem Kontaktformular werden zwecks Bearbeitung der Anfrage bei uns gespeichert. Die Verarbeitung erfolgt über Web3Forms.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsText": "Ihnen stehen die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch zu.",
+    "changesTitle": "Änderungen",
+    "changesText": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht."
+  }
+}

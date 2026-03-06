@@ -5,26 +5,13 @@ import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import siteConfig from "../../../site.config";
+import { useSiteConfig, useDemoBasePath } from "@/lib/config-context";
 
 const emptySubscribe = () => () => {};
 
-function useInitialTheme(): "light" | "dark" {
-  return useSyncExternalStore(
-    emptySubscribe,
-    () => {
-      if (siteConfig.theme.mode !== "auto") return "light";
-      const saved = localStorage.getItem("theme") as "light" | "dark" | null;
-      if (saved) return saved;
-      return window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light";
-    },
-    () => "light" as const
-  );
-}
-
 export default function Navigation() {
+  const siteConfig = useSiteConfig();
+  const basePath = useDemoBasePath();
   const t = useTranslations();
   const locale = useLocale();
   const router = useRouter();
@@ -32,7 +19,19 @@ export default function Navigation() {
 
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const initialTheme = useInitialTheme();
+
+  const initialTheme = useSyncExternalStore(
+    emptySubscribe,
+    () => {
+      if (siteConfig.theme.mode !== "auto") return "light" as const;
+      const saved = localStorage.getItem("theme") as "light" | "dark" | null;
+      if (saved) return saved;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? ("dark" as const)
+        : ("light" as const);
+    },
+    () => "light" as const
+  );
   const [theme, setTheme] = useState<"light" | "dark">(initialTheme);
 
   useEffect(() => {
@@ -56,8 +55,15 @@ export default function Navigation() {
 
   const switchLocale = () => {
     const next = locale === "de" ? "en" : "de";
-    router.replace(pathname, { locale: next });
+    if (basePath) {
+      // Demo route — navigate directly
+      window.location.href = `${basePath}/${next}`;
+    } else {
+      router.replace(pathname, { locale: next });
+    }
   };
+
+  const homeHref = basePath ? `${basePath}/${locale}` : `/${locale}`;
 
   return (
     <header
@@ -70,7 +76,7 @@ export default function Navigation() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <a
-          href={`/${locale}`}
+          href={homeHref}
           className="text-xl font-bold text-text transition-colors hover:text-primary"
         >
           {siteConfig.brand.name}
