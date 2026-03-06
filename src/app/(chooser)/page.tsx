@@ -1,11 +1,31 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { getDemoMetas } from "@/lib/demo-registry";
 
 const demos = getDemoMetas();
+
+const t = {
+  de: {
+    tagline: "Live Demos",
+    title: "Entdecke die Möglichkeiten",
+    subtitle:
+      "Ein Template, endlose Möglichkeiten. Erlebe, wie sich das Benetos Starter-Template an verschiedene Branchen anpasst — jeweils mit eigenem Design, Inhalt und Charakter.",
+    viewDemo: "Demo ansehen",
+    footer: "Erstellt mit Next.js, Tailwind CSS & Framer Motion.",
+  },
+  en: {
+    tagline: "Live Demos",
+    title: "See what\u2019s possible",
+    subtitle:
+      "One template, endless possibilities. Explore how the Benetos starter template adapts to different businesses — each with its own theme, content, and personality.",
+    viewDemo: "View Demo",
+    footer: "Built with Next.js, Tailwind CSS & Framer Motion.",
+  },
+};
 
 const containerVariants = {
   hidden: {},
@@ -24,11 +44,14 @@ const cardVariants = {
 };
 
 export default function DemoChooserPage() {
+  const [lang, setLang] = useState<"de" | "en">("de");
+  const i = t[lang];
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border/50">
-        <div className="mx-auto flex max-w-7xl items-center px-4 py-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <a
             href="https://www.benetos.dev"
             className="flex items-center gap-2 text-xl font-bold text-text transition-colors hover:text-primary"
@@ -50,6 +73,14 @@ export default function DemoChooserPage() {
               </span>
             </span>
           </a>
+
+          {/* Language Toggle */}
+          <button
+            onClick={() => setLang(lang === "de" ? "en" : "de")}
+            className="rounded-lg border border-border px-3 py-1.5 text-xs font-semibold text-text-secondary uppercase transition-colors hover:bg-surface hover:text-text"
+          >
+            {lang === "de" ? "EN" : "DE"}
+          </button>
         </div>
       </header>
 
@@ -61,15 +92,13 @@ export default function DemoChooserPage() {
           transition={{ duration: 0.6 }}
         >
           <p className="mb-4 text-sm font-semibold tracking-[0.2em] text-primary uppercase">
-            Live Demos
+            {i.tagline}
           </p>
           <h1 className="mx-auto mb-6 max-w-3xl text-4xl font-bold text-text md:text-6xl lg:text-7xl">
-            See what&apos;s possible
+            {i.title}
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-text-secondary md:text-xl">
-            One template, endless possibilities. Explore how the Benetos starter
-            template adapts to different businesses — each with its own theme,
-            content, and personality.
+            {i.subtitle}
           </p>
         </motion.div>
       </section>
@@ -101,9 +130,9 @@ export default function DemoChooserPage() {
 
                 {/* Color swatches */}
                 <div className="absolute bottom-4 left-4 flex gap-2">
-                  {demo.colorSwatches.map((color, i) => (
+                  {demo.colorSwatches.map((color, idx) => (
                     <div
-                      key={i}
+                      key={idx}
                       className="h-6 w-6 rounded-full border-2 border-white/30 shadow-lg"
                       style={{ backgroundColor: color }}
                     />
@@ -117,26 +146,17 @@ export default function DemoChooserPage() {
                   {demo.name}
                 </h2>
                 <p className="mb-6 text-sm text-text-secondary">
-                  {demo.description.en}
+                  {demo.description[lang]}
                 </p>
 
-                {/* Language Links */}
-                <div className="flex gap-3">
-                  <a
-                    href={`/demo/${demo.id}/de`}
-                    className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90"
-                  >
-                    Deutsch
-                    <ArrowRight size={16} />
-                  </a>
-                  <a
-                    href={`/demo/${demo.id}/en`}
-                    className="flex flex-1 items-center justify-center gap-2 rounded-lg border border-border px-4 py-2.5 text-sm font-semibold text-text-secondary transition-colors hover:bg-background hover:text-text"
-                  >
-                    English
-                    <ArrowRight size={16} />
-                  </a>
-                </div>
+                {/* View Demo */}
+                <a
+                  href={`/demo/${demo.id}/${lang}`}
+                  className="flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90"
+                >
+                  {i.viewDemo}
+                  <ArrowRight size={16} />
+                </a>
               </div>
             </motion.div>
           ))}
@@ -153,7 +173,7 @@ export default function DemoChooserPage() {
           >
             Benetos
           </a>
-          . Built with Next.js, Tailwind CSS & Framer Motion.
+          . {i.footer}
         </p>
       </footer>
     </div>

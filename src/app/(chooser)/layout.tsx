@@ -32,7 +32,7 @@ export default function DemoChooserLayout({
   --border: #27272A;
   --primary: #6366F1;
   --primary-foreground: #FFFFFF;
-  --accent: #A78BFA;
+  --accent: #00D4FF;
   --accent-foreground: #FFFFFF;
   --text: #FAFAFA;
   --text-secondary: #A1A1AA;
