@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, ExternalLink } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { getDemoMetas } from "@/lib/demo-registry";
 
 const demos = getDemoMetas();
@@ -28,21 +28,27 @@ export default function DemoChooserPage() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border/50">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center px-4 py-4 sm:px-6 lg:px-8">
           <a
             href="https://www.benetos.dev"
-            className="text-xl font-bold text-text transition-colors hover:text-primary"
+            className="flex items-center gap-2 text-xl font-bold text-text transition-colors hover:text-primary"
           >
-            Benetos
-          </a>
-          <a
-            href="https://github.com/benetos-dev/benetos-starter"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium text-text-secondary transition-colors hover:bg-surface hover:text-text"
-          >
-            <ExternalLink size={16} />
-            Use this template
+            <Image
+              src="/Logo_Icon.png"
+              alt=""
+              width={28}
+              height={28}
+              className="rounded-sm"
+            />
+            <span>
+              Benetos
+              <span
+                className="cursor-blink"
+                style={{ color: "var(--accent)" }}
+              >
+                _
+              </span>
+            </span>
           </a>
         </div>
       </header>
@@ -137,34 +143,17 @@ export default function DemoChooserPage() {
         </motion.div>
       </section>
 
-      {/* CTA */}
-      <section className="border-t border-border bg-surface">
-        <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 lg:px-8">
-          <h2 className="mb-4 text-2xl font-bold text-text md:text-3xl">
-            Ready to build your own?
-          </h2>
-          <p className="mb-8 text-text-secondary">
-            Clone the template, edit <code className="rounded bg-background px-2 py-0.5 text-sm font-mono text-primary">site.config.ts</code> and{" "}
-            <code className="rounded bg-background px-2 py-0.5 text-sm font-mono text-primary">messages/*.json</code>,
-            and deploy to Vercel in minutes.
-          </p>
-          <a
-            href="https://github.com/benetos-dev/benetos-starter"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg transition-all hover:scale-105 hover:shadow-xl"
-          >
-            Use this template on GitHub
-            <ExternalLink size={16} />
-          </a>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="border-t border-border py-8 text-center">
         <p className="text-sm text-text-muted">
-          &copy; {new Date().getFullYear()} Benetos. Built with Next.js,
-          Tailwind CSS & Framer Motion.
+          &copy; {new Date().getFullYear()}{" "}
+          <a
+            href="https://www.benetos.dev"
+            className="transition-colors hover:text-primary"
+          >
+            Benetos
+          </a>
+          . Built with Next.js, Tailwind CSS & Framer Motion.
         </p>
       </footer>
     </div>
