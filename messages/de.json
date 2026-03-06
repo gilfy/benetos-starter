@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "menu": "Speisekarte",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Seit 1998 in Hannover",
+    "title": "Café Milano",
+    "subtitle": "Authentischer italienischer Kaffee und hausgemachte Küche im Herzen von Hannover. Erleben Sie den Geschmack Italiens.",
+    "cta": "Unsere Speisekarte",
+    "ctaSecondary": "Tisch reservieren"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Unsere Geschichte und Leidenschaft für italienische Kulinarik",
+    "imageAlt": "Das Innere des Café Milano",
+    "heading": "Eine italienische Tradition in Hannover",
+    "text1": "Seit 1998 bringt das Café Milano den authentischen Geschmack Italiens nach Hannover. Gegründet von der Familie Rossi, die ihre Liebe zur italienischen Kaffeekultur und Küche mit der Welt teilen wollte.",
+    "text2": "Jeder Espresso wird mit sorgfältig ausgewählten Bohnen aus Neapel zubereitet, jede Pasta nach traditionellen Familienrezepten gekocht. Bei uns schmecken Sie die Leidenschaft in jedem Bissen.",
+    "stat1": {
+      "value": "25+",
+      "label": "Jahre Erfahrung"
+    },
+    "stat2": {
+      "value": "50k+",
+      "label": "Zufriedene Gäste"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Frische Zutaten"
+    }
+  },
+  "services": {
+    "title": "Unsere Speisekarte",
+    "subtitle": "Von erstklassigem Espresso bis hin zu hausgemachter Pasta — entdecken Sie unser Angebot",
+    "items": [
+      {
+        "icon": "Coffee",
+        "title": "Kaffee & Getränke",
+        "description": "Erstklassiger italienischer Espresso und Kaffeespezialitäten aus neapolitanischen Bohnen.",
+        "features": [
+          "Espresso & Doppio",
+          "Cappuccino & Latte",
+          "Caffè Affogato",
+          "Italienische Limonaden"
+        ]
+      },
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Pasta & Risotto",
+        "description": "Frische, hausgemachte Pasta nach traditionellen Rezepten der Familie Rossi.",
+        "features": [
+          "Spaghetti Carbonara",
+          "Penne all'Arrabbiata",
+          "Risotto ai Funghi",
+          "Lasagne al Forno"
+        ]
+      },
+      {
+        "icon": "CakeSlice",
+        "title": "Dolci & Gebäck",
+        "description": "Süße Verführungen, täglich frisch in unserer Backstube zubereitet.",
+        "features": [
+          "Tiramisu",
+          "Panna Cotta",
+          "Cannoli Siciliani",
+          "Cornetti & Biscotti"
+        ]
+      },
+      {
+        "icon": "Wine",
+        "title": "Wein & Aperitivo",
+        "description": "Ausgewählte italienische Weine und klassische Aperitivi für den perfekten Abend.",
+        "features": [
+          "Chianti & Barolo",
+          "Prosecco & Spritz",
+          "Aperol Spritz",
+          "Negroni & Campari"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Einblicke in unser Café und unsere Kreationen",
+    "imageAlt": "Café Milano"
+  },
+  "testimonials": {
+    "title": "Was unsere Gäste sagen",
+    "subtitle": "Erfahrungen und Bewertungen unserer geschätzten Stammgäste",
+    "items": [
+      {
+        "name": "Anna Müller",
+        "role": "Stammgast seit 2015",
+        "text": "Der beste Cappuccino in ganz Hannover! Das Café Milano fühlt sich an wie ein kleines Stück Italien. Die hausgemachte Pasta ist einfach göttlich.",
+        "rating": 5
+      },
+      {
+        "name": "Thomas Weber",
+        "role": "Food-Blogger",
+        "text": "Authentische italienische Küche auf höchstem Niveau. Das Tiramisu ist das beste, das ich außerhalb Italiens je probiert habe. Absolut empfehlenswert!",
+        "rating": 5
+      },
+      {
+        "name": "Sarah Fischer",
+        "role": "Stammgast seit 2019",
+        "text": "Die Atmosphäre, der Service, das Essen — alles stimmt einfach. Mein persönlicher Lieblingsort in Hannover für ein gemütliches Frühstück oder Abendessen.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was Sie über das Café Milano wissen möchten",
+    "items": [
+      {
+        "question": "Muss ich einen Tisch reservieren?",
+        "answer": "Für das Frühstück und Mittagessen ist keine Reservierung erforderlich. Für das Abendessen und am Wochenende empfehlen wir jedoch eine Reservierung, da wir oft ausgebucht sind. Sie können uns telefonisch oder per E-Mail kontaktieren."
+      },
+      {
+        "question": "Gibt es vegane und glutenfreie Optionen?",
+        "answer": "Ja, wir bieten eine Auswahl an veganen und glutenfreien Gerichten an. Unsere Speisekarte kennzeichnet diese Optionen deutlich. Sprechen Sie uns gerne an, und unser Team hilft Ihnen bei der Auswahl."
+      },
+      {
+        "question": "Kann man das Café für private Veranstaltungen mieten?",
+        "answer": "Ja! Unser separater Veranstaltungsraum bietet Platz für bis zu 40 Personen und eignet sich perfekt für Geburtstage, Firmenfeiern oder andere besondere Anlässe. Kontaktieren Sie uns für Details und Verfügbarkeit."
+      },
+      {
+        "question": "Woher stammen Ihre Kaffeebohnen?",
+        "answer": "Wir beziehen unsere Bohnen direkt von einer traditionellen Rösterei in Neapel, mit der unsere Familie seit über 20 Jahren zusammenarbeitet. Die Bohnen werden nach einem geheimen Familienrezept geröstet."
+      },
+      {
+        "question": "Bieten Sie Catering an?",
+        "answer": "Ja, wir bieten Catering für Veranstaltungen aller Art an. Von Fingerfood und Antipasti bis hin zu kompletten italienischen Menüs. Kontaktieren Sie uns für ein individuelles Angebot."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir freuen uns auf Ihren Besuch oder Ihre Nachricht",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Öffnungszeiten",
+    "days": {
+      "mo-fr": "Montag – Freitag",
+      "sa": "Samstag",
+      "so": "Sonntag"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Wie können wir helfen?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht an uns...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "error": "Es gab einen Fehler. Bitte versuchen Sie es später erneut."
+    },
+    "successTitle": "Nachricht gesendet!",
+    "successMessage": "Vielen Dank für Ihre Nachricht. Wir melden uns so schnell wie möglich bei Ihnen."
+  },
+  "footer": {
+    "description": "Authentischer italienischer Kaffee und Küche in Hannover seit 1998.",
+    "links": "Navigation",
+    "nav": {
+      "about": "Über uns",
+      "menu": "Speisekarte",
+      "gallery": "Galerie",
+      "contact": "Kontakt"
+    },
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Erstellt von"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten. Durch die weitere Nutzung stimmen Sie der Verwendung von Cookies zu.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "infoTitle": "Angaben gemäß § 5 TMG",
+    "representedBy": "Vertreten durch",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "registerTitle": "Handelsregister",
+    "registerCourt": "Registergericht",
+    "registerNumber": "Registernummer",
+    "taxTitle": "Steuernummern",
+    "taxId": "Steuernummer",
+    "vatId": "Umsatzsteuer-ID",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "responsibleTitle": "Verantwortlicher",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "generalTitle": "Allgemeine Hinweise",
+    "generalText": "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.",
+    "hostingTitle": "Hosting",
+    "hostingText": "Unsere Website wird bei Vercel Inc. gehostet. Beim Besuch unserer Website erfasst der Server automatisch Logdaten wie Ihre IP-Adresse, den verwendeten Browser, die Referrer-URL und den Zeitpunkt des Zugriffs. Diese Daten werden zur Sicherstellung eines störungsfreien Betriebs benötigt und nach 30 Tagen automatisch gelöscht.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Unsere Website verwendet technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind. Diese Cookies enthalten keine personenbezogenen Daten und werden nach Ihrer Sitzung automatisch gelöscht. Ein Cookie wird gesetzt, um Ihre Cookie-Präferenzen zu speichern.",
+    "contactFormTitle": "Kontaktformular",
+    "contactFormText": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung erfolgt über den Dienst Web3Forms.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsText": "Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren.",
+    "changesTitle": "Änderungen",
+    "changesText": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen."
+  }
+}
