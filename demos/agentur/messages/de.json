@@ -12,6 +12,9 @@
     "cta": "Unsere Leistungen",
     "ctaSecondary": "Projekt starten"
   },
+  "showcase": {
+    "labels": ["Strategie", "Identität", "Digital", "Motion", "Experience"]
+  },
   "about": {
     "title": "Über uns",
     "subtitle": "Kreativität trifft Strategie — Design mit Haltung",

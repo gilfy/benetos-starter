@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDemo } from "@/lib/demo-registry";
 import HomeContent from "@/components/HomeContent";
+import AgenturContent from "@/components/AgenturContent";
 
 export default async function DemoHomePage({
   params,
@@ -43,7 +44,7 @@ export default async function DemoHomePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <HomeContent />
+      {demoId === "agentur" ? <AgenturContent /> : <HomeContent />}
     </>
   );
 }

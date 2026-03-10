@@ -12,6 +12,9 @@
     "cta": "Our Services",
     "ctaSecondary": "Start a Project"
   },
+  "showcase": {
+    "labels": ["Strategy", "Identity", "Digital", "Motion", "Experience"]
+  },
   "about": {
     "title": "About",
     "subtitle": "Where creativity meets strategy — design with purpose",
