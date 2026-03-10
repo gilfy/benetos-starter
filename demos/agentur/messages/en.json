@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Branding & Digital Design",
+    "title": "NOIR Studio",
+    "subtitle": "We build brands that stand out. Strategy, design, and digital experiences — for companies that refuse to be average.",
+    "cta": "Our Services",
+    "ctaSecondary": "Start a Project"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Where creativity meets strategy — design with purpose",
+    "imageAlt": "NOIR Studio team at work",
+    "heading": "Design is not an accident",
+    "text1": "NOIR Studio was founded in 2019 in Berlin — with the conviction that great design delivers measurable results. We work at the intersection of strategy, aesthetics, and technology.",
+    "text2": "From brand development and UI/UX design to digital implementation: we guide our clients holistically and create experiences that stick.",
+    "stat1": {
+      "value": "120+",
+      "label": "Projects Delivered"
+    },
+    "stat2": {
+      "value": "40+",
+      "label": "Clients Worldwide"
+    },
+    "stat3": {
+      "value": "6",
+      "label": "Design Awards"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "From concept to launch — we deliver design that performs",
+    "items": [
+      {
+        "icon": "Palette",
+        "title": "Brand Identity",
+        "description": "Brand strategies that make companies unmistakable. From logo to complete brand presence.",
+        "features": [
+          "Brand Strategy & Positioning",
+          "Logo & Visual Identity",
+          "Brand Guidelines",
+          "Naming & Tone of Voice"
+        ]
+      },
+      {
+        "icon": "Monitor",
+        "title": "Web Design",
+        "description": "Websites that convert. Modern design meets thoughtful UX and fast performance.",
+        "features": [
+          "Corporate Websites",
+          "Landing Pages",
+          "E-Commerce Design",
+          "Responsive & Mobile-First"
+        ]
+      },
+      {
+        "icon": "Layers",
+        "title": "UI/UX Design",
+        "description": "User-centered design for digital products. Research, prototyping, and design systems.",
+        "features": [
+          "User Research & Testing",
+          "Wireframing & Prototyping",
+          "Design Systems",
+          "Interaction Design"
+        ]
+      },
+      {
+        "icon": "Video",
+        "title": "Motion Design",
+        "description": "Video and animation for brands that want to come alive. From social content to product films.",
+        "features": [
+          "Brand Animations",
+          "Social Media Content",
+          "Product Videos",
+          "UI Micro-Interactions"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Selected Work",
+    "subtitle": "A selection of our recent projects",
+    "imageAlt": "NOIR Studio project"
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "subtitle": "Feedback from companies we work with",
+    "items": [
+      {
+        "name": "Julia Hartmann",
+        "role": "CEO, Lumina Health",
+        "text": "NOIR completely reimagined our brand. The result: a presence that fits us perfectly and instantly builds trust with our customers. Absolutely professional.",
+        "rating": 5
+      },
+      {
+        "name": "Maximilian Vogel",
+        "role": "Founder, Traverse Tech",
+        "text": "The collaboration was top-tier from day one. NOIR understands not just design, but business. Our new website doubled our conversion rate.",
+        "rating": 5
+      },
+      {
+        "name": "Carla Reiter",
+        "role": "Marketing Director, Solara",
+        "text": "From briefing to delivery — everything ran smoothly. The team thinks ahead, brings their own ideas, and delivers results that exceed expectations.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before getting started",
+    "items": [
+      {
+        "question": "How does a project at NOIR work?",
+        "answer": "Every project starts with a free initial consultation where we understand your goals and requirements. Then follows strategy, concept, design, and implementation — with regular feedback and transparent communication."
+      },
+      {
+        "question": "How much does a branding project cost?",
+        "answer": "Costs depend on scope. A logo package starts at €3,000, comprehensive branding with strategy, visual identity, and guidelines from €8,000. We're happy to create a custom quote for you."
+      },
+      {
+        "question": "How long does a project take?",
+        "answer": "A logo project typically takes 3–4 weeks, full branding 6–8 weeks. Web design projects range from 4 to 12 weeks depending on scope."
+      },
+      {
+        "question": "Do you work with startups?",
+        "answer": "Absolutely. We regularly work with startups and scale-ups. For early stages, we offer lean packages that can grow with the company."
+      },
+      {
+        "question": "Do you also offer development?",
+        "answer": "Yes, we implement our designs with modern technologies like Next.js, React, and Tailwind CSS. Alternatively, we work closely with your development team."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your next project",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Availability",
+    "days": {
+      "mo-fr": "Monday – Friday",
+      "sa": "Saturday",
+      "so": "Sunday"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "error": "There was an error. Please try again later."
+    },
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you! We'll get back to you within 1–2 business days."
+  },
+  "footer": {
+    "description": "Premium branding & digital design from Berlin. For brands that want more.",
+    "links": "Navigation",
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "gallery": "Work",
+      "contact": "Contact"
+    },
+    "legal": "Legal",
+    "impressum": "Imprint",
+    "datenschutz": "Privacy Policy",
+    "rights": "All rights reserved.",
+    "madeBy": "Made by"
+  },
+  "cookie": {
+    "message": "We use cookies to provide you with the best possible experience on our website. By continuing to use the site, you agree to the use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "infoTitle": "Information according to § 5 TMG",
+    "representedBy": "Represented by",
+    "contactTitle": "Contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "registerTitle": "Commercial Register",
+    "registerCourt": "Register Court",
+    "registerNumber": "Register Number",
+    "taxTitle": "Tax Information",
+    "taxId": "Tax ID",
+    "vatId": "VAT ID",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "The contents of our pages were created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to § 7 para.1 TMG under general laws.",
+    "copyrightTitle": "Copyright",
+    "copyrightText": "The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, processing, distribution, and any type of use beyond the limits of copyright require the written consent of the respective author or creator."
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "responsibleTitle": "Responsible Party",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "generalTitle": "General Information",
+    "generalText": "The protection of your personal data is of particular concern to us. We therefore process your data exclusively on the basis of legal provisions (GDPR, TKG 2003). In this privacy policy, we inform you about the most important aspects of data processing within our website.",
+    "hostingTitle": "Hosting",
+    "hostingText": "Our website is hosted by Vercel Inc. When you visit our website, the server automatically collects log data such as your IP address, the browser used, the referrer URL, and the time of access. This data is needed to ensure smooth operation and is automatically deleted after 30 days.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Our website uses technically necessary cookies that are required for the operation of the site. These cookies do not contain personal data and are automatically deleted after your session. A cookie is set to save your cookie preferences.",
+    "contactFormTitle": "Contact Form",
+    "contactFormText": "If you send us inquiries via the contact form, your details from the form, including the contact data you provided, will be stored for the purpose of processing the inquiry and in case of follow-up questions. We do not share this data without your consent. Processing is done through the Web3Forms service.",
+    "rightsTitle": "Your Rights",
+    "rightsText": "You generally have the rights to information, correction, deletion, restriction, data portability, revocation, and objection. If you believe that the processing of your data violates data protection law or your data protection rights have been violated in any way, you can file a complaint with the supervisory authority.",
+    "changesTitle": "Changes",
+    "changesText": "We reserve the right to adapt this privacy policy to ensure it always complies with current legal requirements or to implement changes to our services in the privacy policy."
+  }
+}

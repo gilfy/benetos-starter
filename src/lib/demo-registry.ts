@@ -73,6 +73,25 @@ const demoLoaders: Record<string, () => Promise<DemoEntry>> = {
       },
     };
   },
+  agentur: async () => {
+    const { default: config } = await import("../../demos/agentur/config");
+    const de = (await import("../../demos/agentur/messages/de.json")).default;
+    const en = (await import("../../demos/agentur/messages/en.json")).default;
+    return {
+      config,
+      messages: { de, en },
+      meta: {
+        id: "agentur",
+        name: "NOIR Studio",
+        description: {
+          de: "Branding & Designagentur in Berlin",
+          en: "Branding & design agency in Berlin",
+        },
+        previewImage: "/demos/agentur/hero.jpg",
+        colorSwatches: ["#0A0A0A", "#00D4FF"],
+      },
+    };
+  },
 };
 
 export const DEMO_IDS = Object.keys(demoLoaders);
@@ -114,6 +133,16 @@ export function getDemoMetas(): DemoMeta[] {
       },
       previewImage: "/demos/handwerk/hero.jpg",
       colorSwatches: ["#B45309", "#D97706"],
+    },
+    {
+      id: "agentur",
+      name: "NOIR Studio",
+      description: {
+        de: "Branding & Designagentur in Berlin",
+        en: "Branding & design agency in Berlin",
+      },
+      previewImage: "/demos/agentur/hero.jpg",
+      colorSwatches: ["#0A0A0A", "#00D4FF"],
     },
   ];
 }

@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "gallery": "Arbeiten",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Branding & Digital Design",
+    "title": "NOIR Studio",
+    "subtitle": "Wir gestalten Marken, die auffallen. Strategie, Design und digitale Erlebnisse aus einer Hand — für Unternehmen, die mehr wollen als Durchschnitt.",
+    "cta": "Unsere Leistungen",
+    "ctaSecondary": "Projekt starten"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Kreativität trifft Strategie — Design mit Haltung",
+    "imageAlt": "NOIR Studio Team bei der Arbeit",
+    "heading": "Design ist kein Zufall",
+    "text1": "NOIR Studio wurde 2019 in Berlin gegründet — mit der Überzeugung, dass gutes Design messbare Ergebnisse liefert. Wir arbeiten an der Schnittstelle von Strategie, Ästhetik und Technologie.",
+    "text2": "Von der Markenentwicklung über UI/UX-Design bis hin zur digitalen Umsetzung: Wir begleiten unsere Kunden ganzheitlich und schaffen Erlebnisse, die im Gedächtnis bleiben.",
+    "stat1": {
+      "value": "120+",
+      "label": "Projekte realisiert"
+    },
+    "stat2": {
+      "value": "40+",
+      "label": "Kunden weltweit"
+    },
+    "stat3": {
+      "value": "6",
+      "label": "Design Awards"
+    }
+  },
+  "services": {
+    "title": "Leistungen",
+    "subtitle": "Von der Idee bis zum fertigen Produkt — wir liefern Design, das wirkt",
+    "items": [
+      {
+        "icon": "Palette",
+        "title": "Brand Identity",
+        "description": "Markenstrategien, die Unternehmen unverwechselbar machen. Vom Logo bis zum kompletten Markenauftritt.",
+        "features": [
+          "Markenstrategie & Positionierung",
+          "Logo & Visual Identity",
+          "Brand Guidelines",
+          "Naming & Tonalität"
+        ]
+      },
+      {
+        "icon": "Monitor",
+        "title": "Web Design",
+        "description": "Websites, die konvertieren. Modernes Design trifft durchdachte User Experience und schnelle Performance.",
+        "features": [
+          "Corporate Websites",
+          "Landing Pages",
+          "E-Commerce Design",
+          "Responsive & Mobile-First"
+        ]
+      },
+      {
+        "icon": "Layers",
+        "title": "UI/UX Design",
+        "description": "Nutzerzentriertes Design für digitale Produkte. Research, Prototyping und Design-Systeme.",
+        "features": [
+          "User Research & Testing",
+          "Wireframing & Prototyping",
+          "Design Systeme",
+          "Interaction Design"
+        ]
+      },
+      {
+        "icon": "Video",
+        "title": "Motion Design",
+        "description": "Bewegtbild und Animation für Marken, die lebendig werden wollen. Social Content bis Produktfilm.",
+        "features": [
+          "Brand Animations",
+          "Social Media Content",
+          "Produktvideos",
+          "UI Micro-Interactions"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Ausgewählte Arbeiten",
+    "subtitle": "Ein Auszug aus unseren aktuellen Projekten",
+    "imageAlt": "NOIR Studio Projekt"
+  },
+  "testimonials": {
+    "title": "Was Kunden sagen",
+    "subtitle": "Feedback von Unternehmen, mit denen wir zusammenarbeiten",
+    "items": [
+      {
+        "name": "Julia Hartmann",
+        "role": "CEO, Lumina Health",
+        "text": "NOIR hat unsere Marke komplett neu gedacht. Das Ergebnis: ein Auftritt, der genau zu uns passt und bei unseren Kunden sofort Vertrauen schafft. Absolut professionell.",
+        "rating": 5
+      },
+      {
+        "name": "Maximilian Vogel",
+        "role": "Gründer, Traverse Tech",
+        "text": "Die Zusammenarbeit war von Anfang an auf höchstem Niveau. NOIR versteht nicht nur Design, sondern auch Business. Unsere neue Website hat die Conversion-Rate verdoppelt.",
+        "rating": 5
+      },
+      {
+        "name": "Carla Reiter",
+        "role": "Marketing Director, Solara",
+        "text": "Vom Briefing bis zur Umsetzung — alles lief reibungslos. Das Team denkt mit, bringt eigene Ideen ein und liefert Ergebnisse, die über unsere Erwartungen hinausgehen.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was Sie vor dem Start wissen sollten",
+    "items": [
+      {
+        "question": "Wie läuft ein Projekt bei NOIR ab?",
+        "answer": "Jedes Projekt startet mit einem kostenlosen Erstgespräch, in dem wir Ihre Ziele und Anforderungen verstehen. Danach folgen Strategie, Konzept, Design und Umsetzung — mit regelmäßigem Feedback und transparenter Kommunikation."
+      },
+      {
+        "question": "Was kostet ein Branding-Projekt?",
+        "answer": "Die Kosten hängen vom Umfang ab. Ein Logo-Paket startet bei 3.000 €, ein umfassendes Branding mit Strategie, Visual Identity und Guidelines ab 8.000 €. Wir erstellen Ihnen gerne ein individuelles Angebot."
+      },
+      {
+        "question": "Wie lange dauert ein Projekt?",
+        "answer": "Ein Logo-Projekt dauert in der Regel 3–4 Wochen, ein vollständiges Branding 6–8 Wochen. Webdesign-Projekte bewegen sich je nach Umfang zwischen 4 und 12 Wochen."
+      },
+      {
+        "question": "Arbeitet ihr auch mit Startups?",
+        "answer": "Absolut. Wir arbeiten regelmäßig mit Startups und Scale-ups zusammen. Für frühe Phasen bieten wir schlanke Pakete an, die mit dem Unternehmen wachsen können."
+      },
+      {
+        "question": "Bietet ihr auch Entwicklung an?",
+        "answer": "Ja, wir setzen unsere Designs auch technisch um — mit modernen Technologien wie Next.js, React und Tailwind CSS. Alternativ arbeiten wir eng mit Ihrem Entwicklungsteam zusammen."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns über Ihr nächstes Projekt sprechen",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "hours": "Erreichbarkeit",
+    "days": {
+      "mo-fr": "Montag – Freitag",
+      "sa": "Samstag",
+      "so": "Sonntag"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 ...",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "error": "Es gab einen Fehler. Bitte versuchen Sie es später erneut."
+    },
+    "successTitle": "Nachricht gesendet!",
+    "successMessage": "Vielen Dank! Wir melden uns innerhalb von 1–2 Werktagen bei Ihnen."
+  },
+  "footer": {
+    "description": "Premium Branding & Digital Design aus Berlin. Für Marken, die mehr wollen.",
+    "links": "Navigation",
+    "nav": {
+      "about": "Über uns",
+      "services": "Leistungen",
+      "gallery": "Arbeiten",
+      "contact": "Kontakt"
+    },
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Erstellt von"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten. Durch die weitere Nutzung stimmen Sie der Verwendung von Cookies zu.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "infoTitle": "Angaben gemäß § 5 TMG",
+    "representedBy": "Vertreten durch",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "registerTitle": "Handelsregister",
+    "registerCourt": "Registergericht",
+    "registerNumber": "Registernummer",
+    "taxTitle": "Steuernummern",
+    "taxId": "Steuernummer",
+    "vatId": "Umsatzsteuer-ID",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimerText": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.",
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "responsibleTitle": "Verantwortlicher",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "generalTitle": "Allgemeine Hinweise",
+    "generalText": "Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.",
+    "hostingTitle": "Hosting",
+    "hostingText": "Unsere Website wird bei Vercel Inc. gehostet. Beim Besuch unserer Website erfasst der Server automatisch Logdaten wie Ihre IP-Adresse, den verwendeten Browser, die Referrer-URL und den Zeitpunkt des Zugriffs. Diese Daten werden zur Sicherstellung eines störungsfreien Betriebs benötigt und nach 30 Tagen automatisch gelöscht.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Unsere Website verwendet technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind. Diese Cookies enthalten keine personenbezogenen Daten und werden nach Ihrer Sitzung automatisch gelöscht. Ein Cookie wird gesetzt, um Ihre Cookie-Präferenzen zu speichern.",
+    "contactFormTitle": "Kontaktformular",
+    "contactFormText": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung erfolgt über den Dienst Web3Forms.",
+    "rightsTitle": "Ihre Rechte",
+    "rightsText": "Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren.",
+    "changesTitle": "Änderungen",
+    "changesText": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen."
+  }
+}
